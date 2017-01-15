@@ -57,7 +57,7 @@ class ArrayDataSource implements IDataSource
 	 */
 	public function getCount()
 	{
-		return $this->count;
+		return sizeof($this->data);
 	}
 
 
